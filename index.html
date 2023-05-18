@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>InfoDogs</title>
+
+    <script src="js/http_code.jquery.com_jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/b4ba33193b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h1 class="principal-title">InfoDogs <i class="fa-solid fa-shield-dog"></i></h1>
+            <p>¡Encuentra la raza perfecta para ti!</p>
+        </div>
+
+        <form id="formulario">
+            <label for="breed-name">Nombre de la raza:</label>
+            <input type="text" name="breed-name" id="breed-name" placeholder="Ej: Dachshund" required>
+            <input type="submit" id="search-button" value="Buscar">
+        </form>
+
+        <div class="dog-box">
+            <h3>aaaaaa</h3>
+            <div id="dog-img">
+                <img src="" id="dog-image">
+            </div>
+        </div>
+
+        <div class="details-box">
+            <div class="height-and-weight">
+                <div class="height">
+                    <div class="details-text">
+                        <p>Tamaño <i class="fa-solid fa-ruler"></i></p>
+                        <span> </span>
+                    </div>
+                </div>
+                <div class="weight">
+                    <div class="details-text">
+                        <p>Peso <i class="fa-solid fa-weight-scale"></i></p>
+                        <span> </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="energy-and-hair">
+                <div class="energy">
+                    <div class="details-text">
+                        <p>Energía <i class="fa-solid fa-baseball"></i></p>
+                        <img src="" id="energy-image">
+                    </div>
+                </div>
+                <div class="hair-shedding">
+
+                    <div class="details-text">
+                        <p>Caída del cabello <i class="fa-solid fa-wind"></i></p>
+                        <img src="" id="hair-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+@font-face {
+    font-family: sophia;
+    src: url("../fonts/josephsophia.ttf");
+}
+
+@font-face {
+    font-family: athene;
+    src: url("../fonts/Athene.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    margin-top: 40px;
+    height: 590px;
+    display: inline-block;
+    font-family: athene;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.title h1 {
+    color: lightgreen;
+    font-family: sophia;
+    font-size: 4.3em;
+}
+
+.title p {
+    padding-left: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#formulario {
+    padding-left: 15px;
+    margin-bottom: 70px;
+}
+
+#formulario label {
+    color: lightgreen;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#formulario input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: 2px solid lightgreen;
+    width: 100%;
+}
+
+#formulario input[type="text"]::placeholder {
+    color: lightgreen;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#formulario input[type="submit"] {
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: 2px solid lightgreen;
+    color: lightgreen;
+    font-family: Athene;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#formulario input[type="submit"]:hover {
+    background: lightgreen;
+    color: whitesmoke;
+}
+
+.dog-box {
+    padding-left: 15px;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.dog-box h3 {
+    color: lightgreen;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.dog-box img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.details-box {
+    padding: 0 15px;
+    display: none;
+}
+
+
+
+.details-text p{
+    color: lightgreen;
+    font-size: 20px;
+}
+
+.height-and-weight {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.energy-and-hair {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.energy-and-hair img {
+    width: 40%;
+}
+.hair-shedding {
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
